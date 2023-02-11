@@ -1,0 +1,557 @@
+body {
+    margin: 0;
+    width: 100%;  
+    
+}
+
+*{
+    box-sizing: border-box;
+    font-family: Roboto",sans-serif;
+}
+.navigation {
+    display: flex;
+    height:80px;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 25px;
+    width:100%;
+    margin: 0.1rem 0;
+}
+
+.menu-logo {
+    display: flex;
+    justify-content: start;
+    margin-left: 25px;
+    width: 15%;
+}
+
+.search-mic {
+    display: flex;
+    justify-content: center;
+    width: 65%;
+}
+
+.user-action {
+    display: flex;
+    justify-content: end;
+    margin-right: 20px;
+    margin-top: 8px;
+    width: 20%;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    border: 1px solid #d3d3d3;
+    border-radius: 30px;
+    padding-left: 10px;
+    height: 39px;
+    width: 50%;
+}
+
+.search-bar input[type=text] {
+    border: none;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 80%;
+    
+}
+
+input:focus {
+    outline: none;
+}
+
+.search-bar button {
+    border: none;
+    border-left: 1px solid #d3d3d3;
+    float:right;
+    font-size: 20px;
+    font-weight: lighter;
+    color: #d3d3d3;
+    padding-top: 2px;
+    width: 70px;
+    height: 35px;
+    border-radius: 0 30px 30px 0;
+    background-color: #f8f8f8;
+}
+
+#youtube-logo {
+    width: 90px;
+}
+
+#menu{
+    margin-top: 12px;
+    margin-right: 20px;
+    width: 28px;
+}
+
+#mic{
+    margin-left: 25px;
+    margin-top: 12px;
+    width: 15px;
+}
+#user-icon {
+    width: 28px;
+    border-radius: 50%;
+}
+
+#notification {
+    margin: 4px 27px 0;
+    width: 17px;
+}
+
+#create_icon {
+    width: 28px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    margin:0 10px 0 25px;
+}
+
+.video {
+    width: 70%;
+    
+}
+
+.side-bar {
+    width: 30%;
+}
+
+.iframe-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+}
+
+iframe  {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.side-bar-container {
+    margin-left: 15px;
+}
+
+.categories {
+    display: flex;
+    margin: 8px 0;
+    /* justify-content: space-around; */
+    /* align-items: center; */
+}
+
+.categories > div {
+    background-color: #0000000d;
+    margin:8px 4px;
+    padding:10px;
+    max-width: 20rem;
+    min-width: 12px;
+    white-space: nowrap;
+    border-radius: 10px;
+    color: #0f0f0f;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.categories >div:nth-of-type(1){
+    background-color: #000;
+    color: #fff;
+}
+.categories >div:last-of-type {
+    background-color: #fff;
+}
+
+.video-thumbnail {
+    display: flex;
+    margin-bottom: 8px;
+}
+.video-thumbnail > span > img {
+    width: 150px;
+    height: 90px;
+    border-radius: 8px;
+    margin-right: 10px;
+    white-space: normal;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.user {
+    font-size: 14px;
+    color: #737373;
+}
+
+.views {
+    font-size: 14px;
+    color: #737373;
+    white-space: nowrap;
+}
+
+#title {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+#unlisted {
+    font-size: 13px;
+    color: #737373;
+}
+
+.details {
+    display:flex
+}
+
+.details > div {
+    display: flex;
+    margin: 10px 0;
+    align-items: center;
+    width: 50%;
+}
+
+.details > div:last-child {
+    justify-content: flex-end;
+}
+
+
+
+#play {
+    width: 35px;
+    height: 22px;
+    margin-right: 8px;
+}
+
+.subscriber {
+    margin-right: 30px;
+    padding: 10px 0;
+}
+
+.subscriber > div:first-child {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 3px;
+    white-space: nowrap;
+}
+
+.subscriber > div:last-child {
+    font-size: smaller;
+    color: #737373;
+}
+
+#sub-tag {
+    border: none;
+    padding: 6px 14px;
+    margin-right: 50px;
+    font-size: 14px;
+    border-radius: 40px;
+    color: #fff;
+    background-color: #000;
+    cursor: pointer;
+}
+
+.like {
+    padding:3px 17px;
+    border-radius: 40px;
+    background-color: #0000000d;
+    margin-right: 10px;
+}
+
+.like > button {
+    border: none;
+    cursor: pointer;
+}
+.like > button > i{
+    font-size: 20px;
+
+}
+
+#margin {
+    border-right: 1px solid #d3d3d3;
+    margin: 0 10px;
+    font-size: 22px;
+
+}
+
+#count {
+    margin-left: 10px;
+}
+
+.share {
+    padding:6px 17px;
+    border-radius: 40px;
+    background-color: #0000000d;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.share > button {
+    border: none;
+}
+
+.more {
+    padding:1px 4px 10px 4px;
+    border-radius: 100px;
+    background-color: #0000000d;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.more > button {
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.more > button > span {
+    font-weight: bolder;
+    font-size: large;
+}
+
+.video-cta {
+    border-radius: 10px;
+    padding: 8px;
+    background-color: #eee;
+
+}
+.video-cta > div:first-child{
+    font-size: 15px;
+    font-weight: 900;
+}
+.video-cta > div:last-child > button {
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    margin: 25px 0 10px 0;
+    font-size: 15px;
+}
+
+
+.comment > div:first-child {
+    display: flex;
+    align-items: center;
+    margin: 17px 0;
+}
+
+#comment-count {
+    margin-right: 22px;
+    margin-left: 7px;
+    color: #909090;
+}
+
+.sort {
+    display: flex;
+}
+
+
+.sort > button {
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+#sort-icon {
+    width: 30px;
+    height: 20px;
+}
+
+#sort-by {
+    font-weight: 500;
+}
+
+.comment {
+    margin-bottom: 12px;
+}
+
+#comment-count {
+    font-size: 12px;
+}
+
+.comment > div:nth-child(2) {
+   display: flex;
+   margin-bottom: 30px;
+  
+} 
+
+.comment > div:nth-child(2) > img{
+    width: 40px;
+    height: 40px;
+    margin-top: 2px;
+    margin-right: 15px;
+    border-radius: 50%;
+ } 
+ 
+ .add-comment {
+    width: 100%;
+ }
+
+ .add-comment input[type=text]{
+    border: none;
+    border-bottom: 1px solid #d3d3d3;
+    height: 25px;
+    margin-bottom: 5px;
+    width: 98%;
+
+ }
+  
+ .action {
+    display: flex;
+ }
+
+ .action > span:first-child{
+    width: 10%;
+ }
+
+ .action > span:last-child{
+    display: flex;
+    width: 90%;
+    justify-content: end;
+    margin-right: 2%;
+ }
+
+ .action > span > button {
+    border: none;
+    background-color: #fff;
+ }
+
+ .action > span >button:first-child {
+    font-weight: 800;
+    cursor: pointer;
+
+ }
+
+ .action > span >button:first-child:hover {
+    padding: 10px 15px;
+    border-radius: 30px;
+    background-color: #0000000d;
+ } 
+
+
+ .action > span >button:last-child {
+    padding: 10px 15px;
+    border-radius: 30px;
+    margin-left: 18px;
+    color: #909090;
+    background-color: #0000000d;
+    cursor: pointer;
+ }
+
+ .action > span > i{
+    font-size: 23px;
+    padding:4px 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #0000000d;
+ }
+
+ .action > span > i:hover{
+    background-color: #ccc;
+ }
+
+
+.users-comment{
+    display: flex;
+    margin-bottom: 10px;
+    
+}
+
+
+ .users-comment > img {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+    border-radius: 50%;
+ }
+
+ .username {
+    font-size: 15px;
+    font-weight: 600;
+ }
+
+ .time {
+    font-size: 13px;
+    color: #909090;
+
+ }
+
+ .time:hover {
+    color: #000;
+
+ }
+
+ #read-more {
+    border: none;
+    padding: 0;
+    margin: 8px 0;
+    color: #737373;
+    background-color: #fff;
+    cursor: pointer;
+ }
+
+ #read-more:hover {
+    border-bottom: 1px solid #737373;
+ }
+
+ #comment >div:first-child{
+    margin-bottom: 5px;
+ }
+
+ .commentbyuser{
+    font-size: 15px;
+ }
+
+ .comment-likes > button {
+    border: none;
+    padding: 0;
+    font-size: large;
+    margin-bottom: 10px;
+    background-color: #fff;
+    cursor: pointer;
+ }
+
+ .reply-comment {
+    font-size: 14px;
+    margin-left: 23px;
+ }
+
+
+ 
+
+ .replies > button > i{
+    font-size: 18px;
+    margin-right: 5px;
+ }
+
+ .replies > button {
+    display: flex;
+    align-items: center;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 40px;
+    color: #065fd4;
+    font-size: 15px;
+    background-color: #fff;
+    
+ }
+
+ .replies > button:hover {
+    background-color: #3ea6ff4d;
+ }
+
+
+ 
+
+ 
+
